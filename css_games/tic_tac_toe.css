@@ -1,0 +1,51 @@
+.tile{
+    display: block;
+    height: 75px;
+    width: 75px;
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border: 0.8px solid black;
+    cursor: pointer;
+}
+.row1,.row2,.row3{
+    display: inline-block;
+}
+.start{
+    position: absolute;
+    top: 100px;
+    /*left:31%;*/
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(2);
+    transition: all 500ms;
+    border-radius: 8px;
+}
+.reset{
+    position: absolute;
+    top: 330px;
+    /*left: 31%;*/
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 500ms;
+    border-radius: 8px;
+}
+.turn{
+    position: absolute;
+    top: 320px;
+    left: 60px;;
+}
+.board{
+    display: none;
+    width: 300px;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+}
+.single{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
